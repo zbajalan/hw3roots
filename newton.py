@@ -30,7 +30,7 @@ class Newton(object):
         self._tol = tol
         self._maxiter = maxiter
         self._dx = dx
-
+        arefe=1
     def solve(self, x0):
         """Determine a solution of f(x) = 0, using Newton's method, starting
         from initial guess x0. x0 must be scalar or 1D-array-like. If
